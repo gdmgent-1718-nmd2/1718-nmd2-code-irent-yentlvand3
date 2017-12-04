@@ -16,8 +16,6 @@
               {% if link.url contains page.url %}
                   {% assign class = ' active' %}
               {% endif %}
-              {{ page.url | inspect}}
-              {{ link.url | inspect}}
               {% if link.sublinks %}
                   <li class="nav-item dropdown {{ class }}">
                       <a href="{{ site.baseurl }}{{ link.url }}" class="nav-link dropdown-toggle {{ class }}" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
