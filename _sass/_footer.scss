@@ -1,13 +1,23 @@
 footer {
-    background-color: black;
+    background-color: #2A3159;
     width: 100%;
 }
+
 .tekstfooter {
-    color: white;
-    text-align: center;
-    margin-top: 20px;
+    color: #E7A93D;
+    padding: 30px;
+    float: left;
 }
 
-a {
-    text-align: right;
+.center {
+    text-align: center;
+    color: #E7A93D;
+    padding: 30px;
 }
+
+.glyphicon {
+    color: #9A4917; 
+    padding-top: 15px;
+    padding-left: 630px;
+}
+
