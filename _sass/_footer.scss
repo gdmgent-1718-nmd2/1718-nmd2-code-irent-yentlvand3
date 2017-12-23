@@ -3,21 +3,22 @@ footer {
     width: 100%;
 }
 
-.tekstfooter {
-    color: #E7A93D;
-    padding: 30px;
-    float: left;
-}
-
 .center {
     text-align: center;
     color: #E7A93D;
-    padding: 30px;
+    padding: 20px;
+    float: center;
 }
 
 .glyphicon {
     color: #9A4917; 
-    padding-top: 15px;
-    padding-left: 630px;
 }
 
+footer a {
+    color: #E7A93D;
+    padding: 30px;
+}
+
+.left{
+    float: left;
+}

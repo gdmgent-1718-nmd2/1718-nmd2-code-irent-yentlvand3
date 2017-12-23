@@ -1,32 +1,43 @@
 /* NAVIGATION BAR
  -------------------------------------------------- */
 nav {
-  height: 20px;
-}
- .navbar{
-  background: #E7A93D; 
-  border-bottom: 10px;
-  border-bottom-color: #E7A93D;
-}
-
-li.nav-item {
-  font-family: Montserrat;
-  color: #2A3159;
-  padding-left: 60px;
-  font-size: 16px;
-}
-a.nav-link.active {
-  color: #9A4917;
+  min-height: 100px !important;
+  padding: 10px;
 }
 
 .logo {
- width: 100px;
- padding:10px;
-}
-
-.fa {
-  padding-left: 20px;
-  color: #2A3159;
   float: left;
+  margin-top: 10px;
+  margin-right: 1rem;
+  width: 120px;
+}
+.navbar-nav {
+  float: left !important;
+  font-family: Montserrat;
+  font-size: 16px;
+  background-color: white;
+  border-bottom: 2px solid #E7A93D;
+  
+}
+@media (max-width: 768px) {
+  .navbar-nav {
+      float: none !important;
+      margin-right: 0;
+  }
+}
+.navbar-nav li {
+  padding-right: 60px;
+}
+.navbar-nav li a {
+  color: #2A3159 !important;
 }
 
+.navbar-nav .active a {
+  color: #9A4917 !important;
+}
+
+.navbar-nav li i {
+  color: #2A3159 !important;
+  padding-right: 15px;
+  padding-top: 10px;
+}
